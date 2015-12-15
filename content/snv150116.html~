@@ -1,0 +1,11 @@
+<h4>Esercizio 1. Semplifica l'espressione.</h4>
+\[ \begin{eqnarray}
+    &   & \left( 1 + \frac{2}{x - 1}\right) \cdot \frac{x^2 + x - 2}{x^2 + x} : \left(x^2 - 4\right) \\
+    & = & \left( \frac{x-1}{x-1} + \frac{2}{x - 1}\right) \cdot \frac{(x+2)(x-1)}{x(x+1)} \cdot \frac{1}{x^2 - 4} \\
+    & = & \frac{(x-1) + 2}{x-1} \cdot \frac{(x+2)(x-1)}{x(x+1)} \cdot \frac{1}{(x-2)(x+2)} \\
+    & = & \frac{x+1}{x-1} \cdot \frac{(x+2)(x-1)}{x(x+1)} \cdot \frac{1}{(x-2)(x+2)} \\
+    & = & \frac{x+1}{x-1} \cdot \frac{(x-1)}{x(x+1)} \cdot \frac{1}{(x-2)} \\
+    & = & \frac{1}{x-1} \cdot \frac{(x-1)}{x} \cdot \frac{1}{(x-2)} \\
+    & = & \frac{1}{x} \cdot \frac{1}{(x-2)} = \frac{1}{x(x-2)}
+    \end{eqnarray} \]
+    

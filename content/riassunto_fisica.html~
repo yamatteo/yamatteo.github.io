@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+
+    <!-- Insert title -->
+    <title>Html document</title>
+
+    <!-- Bootstrap and style-->
+      <!-- Local bootstrap css -->
+      <link href="http://yamatteo.github.io/css/bootstrap.css" rel="stylesheet" />
+      <link href="http://yamatteo.github.io/css/bootstrap-theme.css" rel="stylesheet" />
+      <link href="http://yamatteo.github.io/css/common-style.css" rel="stylesheet" />
+      
+      <!-- Uncomment to choose local version of bootstrap 
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+      -->
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        blockquote {
+            text-align: center;
+        }
+        body {
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        .main-heading {
+            margin-top: 60px;
+        }
+    </style>
+  </head>
+  
+  
+  <body>
+    <body style="font-family:Georgia, serif; font-size:150%;">
+    <h1 class="main-heading">Fisica</h1>
+    <div class="row" style="margin-bottom:50px">
+      <div class="col-xs-4 text-right">···</div>
+      <div class="col-xs-4" style="border-bottom:1px solid black;border-top:1px solid black;">&nbsp;</div>
+      <div class="col-xs-4">···</div>
+    </div>
+    <h4>La legge di Coulomb</h4>
+    <p>Ci accorgiamo che alcuni oggetti risentono di una forza misteriosa che agisce a distanza: chiamiamo <em>carichi</em> gli oggetti che si dimostrano sensibili a questa forza. Riconosciamo (Benjamin Franklin) che esistono due categorie di oggetti carichi, quelli detti <em>positivi</em> e quelli detti <em>negativi</em>. Riconosciamo una regolarità nella forza che intercorre tra oggetti carichi che descriviamo con la legge di Coulomb \[ F = k_e \frac{q_1 \cdot q_2}{r^2}, \]dove $k_e = 8.9 \times 10^9 \mathrm{\frac{N m^2}{C^2}}$</p>
+    <ol>
+        <li>Si è poi scoperto che la carica di un oggetto ha natura microscopica: cos'è la carica elementare?</li>
+        <li>Cosa succede quando c'è una scossa elettrica?</li>
+        <li>Come si caricano gli oggetti?</li>
+    </ol>
+    
+    <h4>Definizione di campo elettrico</h4>
+    <p>Evidenze sperimentali successive hanno suggerito una "spiegazione" per la forza con la quale si attraggono, o respingono, due oggetti carichi. Ogni carica genera un campo elettrico, ogni carica che è in un campo elettrico risente di una forza. L'effetto è lo stesso ma il modello è diverso: il campo elettrico c'è anche se non c'è nessuna carica di prova disposta a misurarlo.</p>
+    <p>Misuriamo la presenza del campo elettrico con una carica di prova puntiforme $q$ che in un certo punto risente di una forza $F$. Il campo elettrico in quel punto è dunque \[ E = \frac{F}{q} \]
+    <p>Dal confronto con la legge di Coulomb, scopriamo che una carica puntiforme genera un campo elettrico di intensità \[ E = k_e \frac{q}{r^2}, \]direzione radiale e verso che dipende dal tipo di carica (positiva o negativa).</p>
+    <ol>
+        <li>Quali evidenze sperimentali suggeriscono che il campo elettrico esiste indipendentemente dalle cariche di prova che lo misurano e anche dalla presenza di cariche che lo generano?</li>
+        <li>Anche diminuisce con il quadrato della distanza, il campo elettrico di una carica è sempre presente anche se la carica è molto piccola e molto distante. Significa che possiamo misurare dalla terra anche il campo elettrico generato da ogni singolo elettrone che sta sulla Luna?</li>
+    </ol>
+    
+    <h4>Isolanti e conduttori</h4>
+    <p>Per semplificare la situazione affermiamo che esistono due categorie di materiali: quelli che permettono lo spostamento della carica e quelli che bloccano totalmente lo spostamento della carica. Sono detti rispettivamente conduttori e isolanti. Come tutti i materiali sono composti di atomi, dunque di cariche positive e negative mescolate. In un isolante può esserci del campo elettrico mentre in un conduttore il campo elettrico è nullo (in una situazione di equilibrio, cioè quando non passa corrente) se così non fosse il campo elettrico spingerebbe le cariche, che in un conduttore sono libere di muoversi, fino a ristabilire l'equilibrio e il campo elettrico neutro.</p>
+    <p>Anche in un isolante le cariche sono capaci di muoversi, ma non abbastanza. Si spostano solo leggermente e formano dei dipoli, che generano ognuno un piccolo campo elettrico che si oppone al campo elettrico esterno: per questo in un dielettrico il campo elettrico risulta attenuato secondo un fattore $\varepsilon_r$ detto <em>costante dielettrica relativa</em> che dipende dal tipo di materiale.</p>
+    
+    <ol>
+        <li>Quali cariche sono libere di muoversi in un conduttore metallico?</li>
+        <li>Visto che il mondo non è così semplice: cosa sono i semi-conduttori, i super-conduttori?</li>
+        <li>Di cosa è fatta una fiamma?</li>
+    </ol>
+    
+    <h4>Potenziale ed energia potenziale</h4>
+    <p>Ogni forza che sposta qualcosa produce un lavoro secondo la definizione $L = F \cdot s$. Da notare che tale lavoro può essere positivo, nullo o negativo, a seconda dell'angolo che separa la forza e lo spostamento. Quando la forza non è costante e il percorso non è rettilineo la faccenda si complica. Per una forza che si comporta bene come quella elettrica, per la quale il lavoro non dipende dal percorso si riesce però a definire una energia potenziale in modo che $L = - \Delta U$. Quindi $U$ è l'energia potenziale di una qualche carica che si muove in un campo elettrico: cariche diverse messe nello stesso campo elettrico avranno energie potenziali diverse.</p>
+    <p>Ciò che dipende dal campo elettrico e non dalla carica che si sta spostando è detto semplicemente <em>potenziale</em> elettrico (al posto di energia potenziale) e vale la relazione \[ \Delta U = q \;\, \Delta V. \]</p>
+    <p>In due situazioni semplici specifichiamo il potenziale.<br/>
+    Quando c'è una singola carica puntiforme $Q$ (o un conduttore sferico) che genera campo elettrico si sceglie \[ V = k_e \frac{Q}{r} \] e di conseguenza il potenziale è nullo a distanza infinita, l'energia potenziale di una carica di prova discende da questa scelta e anche il lavoro della forza elettrica in uno spostamento è noto e calcolabile.<br/>
+    Quando due piastre cariche uniformemente ma di segno opposto, parallele e molto estese, il campo elettrico tra di esse è costante. In questo caso ad una delle due piastre è assegnato potenziale nullo e \[ V = E d \] in cui $d$ è la distanza dalla piastra a potenziale nullo (attenzione ai segni).</p>
+    
+    <ol>
+        <li>Cosa succede quando punti diversi di un dielettrico sono portati a potenziali diversi? Cosa succede quando punti diversi di un conduttore sono portati a potenziali diversi?</li>
+        <li>Si afferma la legge di conservazione della carica e la legge di conservazione dell'energia. Riesci a immaginare un esperimento mentale in cui la violazione della prima porta ad una violazione della seconda?</li>
+        <li>Spiega il fenomeno della carica per induzione elettrostatica, utilizzando il potenziale elettrico.</li>
+    </ol>
+    
+    <h4>I condensatori</h4>
+    <p>Un condensatore è un sistema formato da due conduttori: per semplicità li immaginiamo costituiti da due piastre parallele. Quando sulle piastre si deposita della carica si crea anche campo elettrico e dunque differenza di potenziale. Il campo elettrico tra le piastre di un condensatore è $E = \frac{Q}{\varepsilon_0 S}$, la differenza di potenziale dunque $V = E d$; in queste ultime formule $S$ è la superficie di ogni piastra, $d$ è la distanza tra le piastre.</p>
+    <p>Per i condensatori si definisce la grandezza caratteristica \[ C = \frac{Q}{V} \] detta capacità, che non dipende da quanta carica c'è nelle armature, ma solo dalla geometria del condensatore. Più condensatori in parallelo possono essere sostituiti da uno equivalente che ha la somma delle loro capacità. Più condensatori in serie possono essere sostituiti da un unico condensatore dalla capacità il cui inverso è somma degli inversi delle capacità originali.</p>
+    <p>Quando una carica passa da una piastra all'altra la sua energia potenziale cambia di un valore $q V$; contemporaneamente anche il potenziale che separa le due piastre cambia, di un valore $q / C$. Non resta altro che concludere che l'energia potenziale di un condensatore è \[ U = \frac{1}{2} Q V \]</p>
+    
+    <ol>
+        <li>Indica delle buone ragioni a sostegno delle regole per calcolare la capacità equivalente di condensatori in serie e in parallelo.</li>
+        <li>Indica la forza che una carica di prova $q$ avverte quando è tra le piastre di un condensatore di capacità $C$ e d.d.p. $V$ (servono altri dati?)</li>
+    </ol>
+    
+    <h4>La corrente</h4>
+    <p>Talvolta le cariche non sono in equilibrio e si muovono. Quando delle cariche attraversano una superficie (la sezione di un filo, per esempio) di chiama corrente il rapporto \[ i = \frac{q}{t}. \] Affinché in un conduttore, che tenderebbe a ridistribuire le cariche all'equilibrio, permanga una corrente continua è necessario che un generatore continui a spingere le cariche, cioè a mantenere una costante differenza di potenziale tra due parti del circuito. Per portare le cariche da un polo all'altro deve fare un lavoro $L = q V$; biechi tradizionalisti chiamano <em>forza elettromotrice</em> la differenza di potenziale tra i due poli del generatore quando il circuito è aperto, cioè quando non passa corrente.</p>
+    <p>Quando il circuito è chiuso la differenza di potenziale mantenuta costante dal generatore obbliga le cariche a muoversi e si ottiene corrente. Si definisce la resistenza, quantità caratteristica dei circuiti detti ohmici, \[ R = \frac{V}{I}. \] Esperimenti suggeriscono che esiste una relazione tra la resistenza di un conduttore e le sue caratteristiche fisiche e chimiche: \[ R = \rho \frac{l}{A}. \]</p>
+    <p>Per determinare quanta corrente passa in ogni porzione di un complicato circuito e la differenza di potenziale tra punti qualsiasi di esso, sono di pratica utilità alcune considerazioni. In un percorso chiuso, la somma delle differenze di potenziale è zero, perché ritornando al punto di partenza dobbiamo ritrovare lo stesso potenziale. In ogni nodo del circuito, la somma delle correnti è zero, perché non può esservi accumulo di carica. Più resistori in serie possono essere sostituiti da uno equivalente la cui resistenza è la somma delle loro resistenze. Più resistori in parallelo possono essere sostituiti da un resistore equivalente la cui resistenza è l'inverso della somma degli inversi delle resistenze originali.</p>
+    <p>La potenza di un generatore, ovvero quanta energia può trasferire nell'unità di tempo, è \[ P = V I, \] mentre la potenza di un resistore è \[ P = R I^2 \]</p>
+    <ol>
+        <li>Cosa succede se collego i due capi di una batteria con un filo di rame?</li>
+        <li>Pensare che resistività e resistenza siano costanti è un'approssimazione. Con più attenzione si scopre che la resistività dipende anche dalla temperatura (ma anche questa è un'approssimazione): in che modo?</li>
+        <li>Indica delle buone ragioni per cui valgono le due leggi di Kirchhoff</li>
+        <li>Indica come si può dedurre la regola della resistenza equivalente dalle due leggi di Ohm</li>
+    <ol>
+    
+    <h4>Il magnetismo</h4>
+    <p>Ogni corrente genera campo magnetico, il cui orientamento ricordiamo con la regola della mano destra: se la corrente va nella direzione del pollice, il campo magnetico "gira attorno" alla corrente nel senso delle altre dita della mano. Se la corrente è rettilinea, il campo magnetico a distanza $r$ ha intensità \[ B = k_m \frac{i}{r}, \] con $k_m = 2 \times 10^-7 \mathrm{\frac{N}{A^2}}$. Viceversa, un filo rettilineo, percorso dalla corrente e immerso in un campo magnetico sente una forza \[ F = i l \times B. \] Dal confronto di queste due affermazioni si ricava la legge sperimentale di Ampere.<br/>
+    Casi particolari e ricorrenti di campi magnetici generati da correnti non rettilinee sono quelli dovuti ad una spira $B = \pi k_m \frac{i}{r}$ e quelli dovuti ad un solenoide $B = 2 \pi k_m \frac{NI}{l}$.</p>
+    <p>Una carica in movimento in un campo magnetico sente la forza di Lorentz \[ F = q v \times B. \]</p>
+    
+    
+
+
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://yamatteo.github.io/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://yamatteo.github.io/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- MathJax support -->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX", "output/HTML-CSS"],
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+          processEscapes: true
+        },
+        "HTML-CSS": { availableFonts: ["TeX"] }
+      });
+    </script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  </body>
+</html>

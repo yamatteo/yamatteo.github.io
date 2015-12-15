@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+
+    <!-- Insert title -->
+    <title>Html document</title>
+
+    <!-- Bootstrap and style-->
+      <!-- Local bootstrap css -->
+      <link href="http://yamatteo.github.io/css/bootstrap.css" rel="stylesheet" />
+      <link href="http://yamatteo.github.io/css/bootstrap-theme.css" rel="stylesheet" />
+      <link href="http://yamatteo.github.io/css/common-style.css" rel="stylesheet" />
+      
+      <!-- Uncomment to choose local version of bootstrap 
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+      -->
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://yamatteo.github.io/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://yamatteo.github.io/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- MathJax support -->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX", "output/HTML-CSS"],
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+          processEscapes: true
+        },
+        "HTML-CSS": { availableFonts: ["TeX"] }
+      });
+      MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    </script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  </head>
+  
+  
+  <body>
+    <h1>Espressioni algebriche</h1>
+    <p>Semplifica le seguenti espressioni algebriche.</p>
+    <p id="display"></p>
+    <p>Puoi controllare la <a href="#" onclick="show_answer();">risposta</a>. Per vedere un altro esercizio sullo stesso argomento basta ricaricare la pagina.</p>
+    <p id="answer"></p>
+    
+    <script>
+      pieces = [
+        ["\\frac{a^3 - 2}{4a^2y} + \\frac{1}{2} - \\frac{a}{4y} + \\frac{1}{2a^2y}", "\\frac{1}{2}"],
+        ["\\frac{z^3 + t^3}{z^2 - t^2} : \\frac{z^3 - z^2t + zt^2}{2z - 2t}", "\\frac{2}{z}"],
+        ["\\frac{(a-1)(a+1)}{a^2b^2} - \\frac{1+2a^2}{a^2} + \\frac{b^2+1}{a^2b^2}", "\\frac{1-2b^2}{b^2}"],
+        ["1 - \\frac{1}{x^2} - \\frac{x}{3y^2} + \\frac{2x^3 + y^3}{6x^2y^2} - \\frac{y}{6x^2}", "\\frac{x^2 - 1}{x^2}"],
+        ["\\frac{x^3 - 4x}{x^2 + 4x + 4} : \\frac{x^2 - 4x + 4}{2x^2 - 8} : 4x^2", "\\frac{1}{2x}"],
+        ["\\frac{(x+y)^2}{2x^2y} + 3 - \\frac{(x-y)^2}{2x^2y} - \\frac{1}{x}", "\\frac{1 + 3x}{x}"],
+        ["\\frac{2b + 2}{b^4 + b^3 + 8b + 8} \\cdot \\left( \\frac{4}{b^2} - 1 \\right)\\left(b + \\frac{4}{b-2}\\right)", "-\\frac{2}{b^2}"],
+        ["\\frac{1}{2}\\left(\\frac{a-x}{m}\\right) + \\frac{11}{5x} + \\frac{5x^2 - 2m}{10mx} - \\frac{a}{2m}", "\\frac{2}{x}"],
+        ["\\frac{a + 3b}{2a} - \\frac{2a - b}{3b} - \\frac{4a^2 + 9b^2}{6ab} + \\frac{a-b}{b}", "-\\frac{2a + b}{6b}"],
+        ["\\left(\\frac{2a + 2b}{a} + \\frac{a^2 - b^2}{ab} - \\frac{(a+b)^2}{ab}\\right):\\frac{a+1}{9 - 9a^2}", "0"],
+        ]
+      chosen = pieces[Math.floor((Math.random() * pieces.length))];
+      $("#answer").hide();
+      $("#display").append("\\[ " + chosen[0] + " \\]");
+      
+      function show_answer() {
+        $("#answer").show();
+        }
+    </script>
+   
+    
+  </body>
+</html>

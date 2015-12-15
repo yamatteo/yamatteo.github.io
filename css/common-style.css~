@@ -1,0 +1,106 @@
+body {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+
+
+blockquote.problem {
+  font-size:120%;
+  font-family: serif;
+  margin: 20px;
+  }
+
+hr { 
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: black;
+  border-width: 1px;
+  }
+
+span.showa {
+    cursor:pointer;
+    color: #428bca;
+    text-decoration: none;
+}
+
+span.showa:hover,
+span.showa:focus {
+  color: #2a6496;
+  text-decoration: underline;
+}
+span.showa:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+p {
+  margin: 20px;
+}
+
+.main-heading {
+  padding: 20px 5px;
+  text-align: center;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.eqn-ol {
+  margin-left: 20px;
+}
+.eqn-ol li {
+  margin-bottom: 15px;
+}
+
+.std-table {
+  border:10px;
+  border: 1pt solid black;
+  border-collapse:collapse;
+  width:100%;
+  }
+.std-table td {
+  border: 1pt dotted gray;
+  text-align:center;
+}
+.std-table td.left{
+  text-align:left;
+}
+
+/*** Charts ***/
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.chart-line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}

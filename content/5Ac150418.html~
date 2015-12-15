@@ -1,0 +1,15 @@
+<p>Conosciamo il risultato del limite notevole \[ \lim_{t \to \infty} \left( 1 + \frac{1}{t} \right)^t \] ma non ha molto senso provare a dimostrarlo: infatti in molti testi questo limite è proprio la definizione del numero di nepero. Possiamo provare a dimostrare almeno in parte che tale limite, quantomeno, esiste. Seguono alcune considerazioni:
+<ol>
+    <li>Dato che $t \to \infty$ possiamo dare per scontato in quanto segue che sia $t \geq 1$.</li>
+    <li>Possiamo dimostrare che la funzione $f(t) = \left( 1 + \frac{1}{t} \right)^t$ è sempre maggiore di $1$.</li>
+    <li>Vogliamo capire se la funzione $f(t)$ è crescente o decrescente: possiamo trovare la derivata $f'(t)$.</li>
+    <li>Anche se è facile trovare la derivata non riusciamo a trovare le soluzioni alla disequazione $f'(t) > 0$.</li>
+    <li>Notiamo però tre fatti che assieme assicurano che la derivata $f'$ non si annulla mai:
+        <ul>
+        <li>$f'(1) > 0$</li>
+        <li>$\lim_{t \to \infty} f'(t) = 0$</li>
+        <li>la derivata della derivata $f''$ è sempre negativa</li>
+        </ul></li>
+    <li>Dato che $f'$ è sempre positiva, la funzione originaria $f$ è sempre crescente. Non lo dimostriamo, ma vale $f(t) \leq 3$. Deduciamo da questo che $\lim_{t \to \infty} f(t)$ esiste e che tale limite è compreso tra $1$ e $3$.</li>
+</ol>
+</p>

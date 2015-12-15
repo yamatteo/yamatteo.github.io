@@ -1,0 +1,29 @@
+<p>Sono date le due parabole $y = x^2 + 4x - 5$ e $y = - \frac{1}{2}x^2 - 3x - 6$. È richiesto di portare la seconda parabola sulla prima (con una traslazione) in modo che i due vertici coincidano.</p>
+<p>Cominciamo trovando le coordinate del vertice della prima e della seconda parabola. Utiliziamo come metodo il completamento del quadrato.
+\[ \begin{eqnarray}
+    y & = & x^2 + 4x - 5 \\
+    y & = & (x+2)^2 - 5 \\
+    (y + 5) & = & (x + 2)^2
+   \end{eqnarray} \]
+
+\[ \begin{eqnarray}
+    y & = & -\frac{1}{2}x^2 - 3x - 6 \\
+    y & = & -\frac{1}{2}\left( x^2 + 6x + 12 \right) \\
+    y & = & -\frac{1}{2}\left[ (x + 3)^2 + 3 \right] \\
+    (y + \frac{3}{2}) & = & -\frac{1}{2}\left( x + 3 \right)^2
+   \end{eqnarray} \]
+
+Dunque la prima parabola ha centro in $\left(-2;-5\right)$ e la seconda parabola ha centro $\left(-3; -\frac{3}{2}\right)$. Il secondo centro deve essere quindi spostato di $1$ a destra e di $\frac{7}{2}$ in basso, cioè di $-\frac{7}{2}$. Il vettore della traslazione è dunque
+\[ \vec{v} = \left\langle 1; -\frac{7}{2} \right\rangle \]
+In termini di trasformazioni diventa  
+\[  \left\lbrace \begin{array}{l}
+        x' = x + 1 \\
+        y' = y - \frac{7}{2}
+    \end{array}\right\rbrace
+    \qquad \mbox{ oppure } \qquad
+    \left\lbrace \begin{array}{l}
+        x = x' - 1 \\
+        y = y' + \frac{7}{2}
+    \end{array}\right\rbrace
+    \]</p>
+<p>Applicando la traslazione, cioè sostituendo la <u>seconda</u> forma nella equazione della <u>seconda</u> parabola, otteniamo l'equazione della corrispondente parabola traslata.</p>
