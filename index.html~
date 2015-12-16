@@ -106,20 +106,12 @@
             <h4>Equazioni goniometriche quasi elementari</h4>
             <p>Equazioni del tipo $\sin \alpha = \pm\sin \beta$, 
             $\sin \alpha = \pm \cos \beta$, $\cos \alpha = \pm \cos \alpha$, 
-            $\tan \alpha = \pm \tan \beta$.</p>
-            <p><strong>Esercizi</strong>C12 </p>
-        </li>
-        <li>
-            <h4>Equazioni gonimetriche scomponibili</h4>
-            <p>Esempi in cui l'algebra permette di scomporre equazioni 
-            goniometriche complesse.</p>
-            <p><strong>Esercizi</strong> </p>
-        </li>
-        <li>
-            <h4>Disequazioni goniometriche elementari</h4>
-            <p>Metodo della circonferenza goniometrica.</p>
-            <p><strong>Esercizi</strong>C12 </p>
-        </li>
+            $\tan \alpha = \pm \tan \beta$.</br>
+            C12 171→216</li>
+        <li><strong>Equazioni gonimetriche</strong> equazioni scomponibili</br>
+            C12 220→278</li>
+        <li><strong>Disequazioni goniometriche</strong> metodo del cerchio</br>
+            C12 531→570</li>
         <li><strong>Trigonometria</strong> approfondimento sui triangoli rettangoli</br>
             C13 63→112</li>
         <li><strong>Trigonometria</strong> area del triangolo</br>
@@ -146,11 +138,6 @@
             141→148, 163→184</p>
         </li>
         <li>
-            <h4>Soluzioni multiple alle equazioni goniometriche</h4>
-            <p>Espressione delle soluzioni in forma sintentica.</p>
-            <p><strong>Esercizi</strong> C12 71→78</p>
-        </li>
-        <li>
             <h4>Funzioni inverse</h4>
             <p>Definizioni $\sin^{-1}$, $\cos^{-1}$ e $\tan^{-1}$. Necessarie
             restrizioni a dominio e codominio.</p>
@@ -159,7 +146,7 @@
         <li>
             <h4>Formule di addizione</h4>
             <p>Come ricavare le formule di addizione. addizione e sottrazione in seno e coseno</p>
-            <p><strong>Esercizi</strong>C11 151→206, C12 19→25</li>
+            <p><strong>Esercizi</strong>C11 151→206</li>
         <li>
             <h4>Angoli associati</h4>
             <p>Formule  goniometriche riguardo agli angoli associati. Come 
@@ -170,14 +157,14 @@
         <li>
             <h4>Formule di duplicazione</h4>
             <p>Ricavare le formule di duplicazione da quelle di addizione.</p>
-            <p><strong>Esercizi</strong>C11 242→316, C12 26→36</p>
+            <p><strong>Esercizi</strong>C11 242→316</p>
         </li>
         <li>
             <h4>Formule di bisezione</h4>
             <p>Come ricavare le formule di bisezione da quelle di dupplicazione.
             Come si possono razionalizzare le formule di bisezione della
             tangente.</p>
-            <p><strong>Esercizi</strong> C11 318→351, C12 37→42</p>
+            <p><strong>Esercizi</strong> C11 318→351, C12 </p>
         </li>
         <li>
             <h4>Formule parametriche</h4>
@@ -193,8 +180,12 @@
         <li>
             <h4>Formule di Werner</h4>
             <p>Come ricavare le formule di Werner da quelle di prostaferesi.</p>
-            <p><strong>Esercizi</strong> C11 399→511; C12 43→60</p>
+            <p><strong>Esercizi</strong> C11 399→511</p>
         </li>
+        <li><strong>Equazioni goniometriche</strong> soluzioni multiple</br>
+            C12 71→278</li>
+        <li><strong>Equazioni lineari</strong> metodo algebrico, grafico e aggiunto</br>
+            C12 280→302</li>
         <li>
             <h4>Funzioni sinusoidali</h4>
             <p>Funzioni trigonometriche e trasformazioni. Ampiezza, pulsazione e
@@ -202,40 +193,17 @@
             sinusoidali. Grafici di altre semplici funzioni derivate.</p>
             <p><strong>Esercizi</strong> C10 328→498; C11 145→149</p>
         </li>
-        <li>
-            <h4>Equazioni lineari in seno e coseno</h4>
-            <p>Stratagemmi algebrici. Formule parametriche. Metodo grafico. 
-            Metodo dell'angolo aggiunto.</p>
-            <p><strong>Esercizi</strong>C11 207→216 </p>
-        </li>
-        <li>
-            <h4>Equazioni omogenee di secondo grado in seno e coseno</h4>
-            <p>Stratagemmi algebrici. Formule di liearizzazione (inverse delle 
-            formule di duplicazione).</p>
-            <p><strong>Esercizi</strong> </p>
-        </li>
-        <li>
-            <h4>Sistemi di equazioni goniometriche</h4>
-            <p>Sostituzione algebrica.</p>
-            <p><strong>Esercizi</strong> </p>
-        </li>
-        <li>
-            <h4>Disequazioni goniometriche</h4>
-            <p>Metodo del grafico. Scomposizione in fattori. Sistemi.</p>
-            <p><strong>Esercizi</strong>C12 </p>
-        </li>
-        <li>
-            <h4>Equazioni goniometriche</h4>
-            <p>Equazioni parametriche elementari. Equazioni di secondo grado di 
-            una sola funzione goniometrica. Equazioni lineari di seno e 
-            coseno.</p>
-            <p><strong>Esercizi</strong>C12 </p>
-        </li>
+        <li><strong>Equazioni lineari</strong> equazioni omogenee</br>
+            C12 304→329, 352→487, 509→526</li>
+        <li><strong>Disequazioni goniometriche</strong>metodo del grafico</br>
+            C12 572→789</li>
+        <li><strong>Equazioni goniometriche</strong> equazioni parametriche</br>
+            C12 790→826</li>
         <li>
             <h4>Secante, cosecante e cotangente</h4>
             <p>Definizione come funzioni reali. Definizione geometrica. Periodo.
             Grafico. Valori negli angoli notevoli.</p>
-            <p><strong>Esercizi</strong> C10 194→249, 253→276, C12 2→18, 61→70</p>
+            <p><strong>Esercizi</strong> C10 194→249, 253→276</p>
         </li>
         <li>
             <h4>I sottomultipli del grado</h4>
