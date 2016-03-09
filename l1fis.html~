@@ -39,9 +39,9 @@
           <ul class="nav navbar-nav">
             <li><a href="index.html">Intro</a></li>
             <li><a href="m1mat.html">1media mat</a></li>
-            <li class="active"><a href="m2mat.html">2media mat</a></li>
+            <li><a href="m2mat.html">2media mat</a></li>
             <li><a href="m2sci.html">2media sci</a></li>
-            <li><a href="l1fis.html">1liceo fis</a></li>
+            <li class="active"><a href="l1fis.html">1liceo fis</a></li>
             <li><a href="l2fis.html">2liceo fis</a></li>
             <li><a href="l4fis.html">4liceo fis</a></li>
           </ul>
@@ -51,21 +51,9 @@
 
     <div class="container">
       <div class="main-heading">
-        <h1>Classe 2° media - Matematica - Villa Adelina</h1>
+        <h1>Classe</h1>
         <p class="lead">informazioni ed esercizi</p>
       </div>
-    </div>
-
-    <div class="container">
-        <h3>Conoscenze</h3>
-        <ol>
-        <li><strong>Numeri naturali.</strong> Scrittura posizionale. Unità, decine, centinaia. Migliaia, milioni, miliardi. Confronto: minore e maggiore. Addizione, addendi, somma. Sottrazione, minuendo, sottraendo, differenza. Moltiplicazione, fattori, prodotto. Divisione, dividendo, divisore, quoziente, resto. Proprietà commutativa, associativa, invariantiva. Espressioni, precedenza, parentesi.</li>
-        <li><strong>Numeri decimali.</strong> Decimali, decimi, centesimi, millesimi. Approssimare, per eccesso, per difetto. Operazioni con i numeri decimali. Operazioni con i decimali: addizione, moltiplicazione, sottrazione, divisione.</li>
-        <li><strong>Potenze.</strong> Base, esponente. Quadrato, cubo. Precedenza delle potenze. Notazione scientifica. Proprietà delle potenze: prodotto con base uguale, quoziente con base uguale, prodotto con stesso esponente, quoziente con stesso esponente, potenza di potenza.</li>
-        <li><strong>Divisibilità.</strong> Divisore. Criterio di divisibilità per 10, 2, 5, 4, 3, 9. Numero primo, numero composto. Scomposizione. Massimo comun divisore. Primi relativi. Multipli. Minimo comune multiplo.</li>
-        <li><strong>Insiemi.</strong> Elemento. Appartenenza. Diagramma di Venn. Sottoinsiemi. Unione, intersezione. Insiemi disgiunti.</li>
-        <li><strong>Frazioni.</strong> Numeratore. Denominatore. Frazioni equivalenti. Rappresentazione lineare, torta.</li>
-        </ol>
     </div>
     
 

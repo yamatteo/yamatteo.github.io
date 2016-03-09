@@ -51,9 +51,17 @@
 
     <div class="container">
       <div class="main-heading">
-        <h1>Classe</h1>
+        <h1>Classe 1° media - Matematica - Olivos</h1>
         <p class="lead">informazioni ed esercizi</p>
       </div>
+    </div>
+
+    <div class="container">
+        <h3>Conoscenze</h3>
+        <ol>
+        <li><strong>Numeri naturali.</strong> Scrittura posizionale. Unità, decine, centinaia. Migliaia, milioni, miliardi. Confronto: minore e maggiore.</li>
+        <li><strong>Numeri decimali.</strong> Decimali, decimi, centesimi, millesimi. Approssimare, per eccesso, per difetto.</li>
+        </ol>
     </div>
     
 
