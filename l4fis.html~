@@ -51,18 +51,9 @@
 
     <div class="container">
       <div class="main-heading">
-        <h1>Classe 4° liceo - Fisica - Olivos</h1>
+        <h1>Classe</h1>
         <p class="lead">informazioni ed esercizi</p>
       </div>
-    </div>
-
-    <div class="container">
-        <h3>Conoscenze</h3>
-        <ol>
-        <li><strong>Misura.</strong> Grandezza fisica. Definizione operativa. Tempo. Lunghezza. Massa. Carica.</li>
-        <li><strong>Meccanica.</strong> Posizione. Punto materiale. Sistema di riferimento. Moto unidimensionale. Velocità media. Accelerazione. Forza. Principio d'inerezia. Secondo principio della dinamica. Principio di azione e reazione. Quantità di moto. Teorema dell'impulso. Energia, cinetica, potenziale. Momento angolare.</li>
-        <li><strong>Cariche elettriche.</strong> Ambra. Elettrizzazione per strofinio. Benjamin Franklin. J. J. Thomson.
-        </ol>
     </div>
     
 
