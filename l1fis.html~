@@ -60,9 +60,13 @@
         <h3>Conoscenze</h3>
         <ol>
         <li><strong>Misura.</strong> Grandezza fisica. Misurare. Misure dirette, indirette. Definizione operativa. Sistema Internazionale. Multipli delle unità di misura. Tempo. Secondo. Lunghezza. Metro. Area. Volume. Notazione scientifica. Ordine di grandezza.</li>
-        <li><strong>Incertezza.</strong> Precisione. Portata. Sensibilità. Prontezza. Incertezza. Errori casuali, sistematici. Valore medio. Errore assoluto.</li>
-        <li><strong>Cinematica unidimensionale.</strong> Punto materiale. Traiettoria. Sistema di riferimento. Istante. Delta $\Delta$.</li>
+        <li><strong>Incertezza.</strong> Precisione. Portata. Sensibilità. Prontezza. Incertezza. Errori casuali, sistematici. Valore medio. Errore assoluto. Errore relativo.</li>
+        <li><strong>Cinematica unidimensionale.</strong> Punto materiale. Traiettoria. Sistema di riferimento. Istante. Grafico spazio-tempo. Delta $\Delta$. Velocità media. Velocità istantanea: limite, pendenza della retta tangente. Grafico velocità-tempo. Accelerazione media. Accelerazione istantanea: limite, pendenza della retta tangente.</li>
         </ol>
+        
+        <h3>Competenze</h3>
+        <li><strong>Fisica empirica.</strong> Misurare lunghezze. Misurare tempi. Calcolare grandezze derivate. Stabilire l'incertezza (assoluta e relativa) di una misura. Trovare la media di molte misure. Rappresentare i dati in un grafico. Rappresentare l'incertezza in un grafico.</li>
+        <li><strong>Soluzione di problemi.</strong> Identificare i dati del problema. Scegliere le leggi fisiche appropriate. Manipolare algebricamente le equazioni. Sfruttare la notazione scientifica. Sfruttare l'analisi dimensionale. Approssimare il risultato. <em>Addivinare</em> il risultato.</li>
     </div>
 
     <!-- Bootstrap core JavaScript
