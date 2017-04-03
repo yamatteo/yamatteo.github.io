@@ -1,6 +1,7 @@
 body {
   padding-top: 60px;
   padding-bottom: 30px;
+  font-size: 15pt;
 }
 
 @media print {
@@ -107,4 +108,21 @@ p {
   fill: none;
   stroke: steelblue;
   stroke-width: 1.5px;
+}
+
+.large {
+  font-size: 120%;
+}
+
+.Large {
+  font-size: 160%;
+}
+
+.LARGE {
+  font-size: 200%;
+}
+
+.header .row {
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
